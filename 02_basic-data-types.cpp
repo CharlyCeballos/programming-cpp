@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
   int integerNumber = 15;
   float floatNumber = 95.23;
   double doubleNumb = 7896321453698745214532.98752145;
@@ -13,5 +12,6 @@ int main()
   cout<<floatNumber<<endl;
   cout<<doubleNumb<<endl;
   cout<<character<<endl;
+
   return 0;
 }
