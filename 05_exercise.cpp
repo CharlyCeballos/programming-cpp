@@ -2,7 +2,7 @@
 Realice un programa que lea de la entrada estándar de los siguientes datos de una persona:
 Edad: dato de tipo entero.
 Sexo: dato de tipo carácter.
-Altura en metros: dato de tipo real.
+Altura en centimetros: dato de tipo real.
 Tras Leer Los datos, el programa debe mostrarlos en la salida estándar.
 */
 
@@ -10,9 +10,9 @@ Tras Leer Los datos, el programa debe mostrarlos en la salida estándar.
 using namespace std;
 
 int main(void) {
-  int old;
+  int old, tallCm;
   string sex;
-  float tall;
+  float tallM;
 
   cout<<endl<<"Ingrese su edad con numeros: ";
   cin>>old;
@@ -20,9 +20,10 @@ int main(void) {
   cin>>sex;
   sex.resize(9);
   cout<<endl<<"Ingrese su altura (cm): ";
-  cin>>tall;
+  cin>>tallCm;
+  tallM = tallCm / 100.0;
 
-  cout<<endl<<"Edad: "<<old<<" primaveras"<<endl<<"Sexo: "<<sex<<endl<<"Altura: "<<tall<<" centimetros";
+  cout<<endl<<"Edad: "<<old<<" primaveras"<<endl<<"Sexo: "<<sex<<endl<<"Altura: "<<tallCm<<" centimetros"<<endl<<"Altura: "<<tallM<<" metros";
 
   return 0;
 }
