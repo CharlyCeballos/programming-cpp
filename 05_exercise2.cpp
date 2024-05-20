@@ -1,5 +1,5 @@
 /*
-Escribe la siguiente expresión matemótica como expresión en C++:
+Escribe la siguiente expresión matemática como expresión en C++:
 a/b + 1
 */
 
