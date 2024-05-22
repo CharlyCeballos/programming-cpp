@@ -9,5 +9,13 @@ int main() {
     i++;
   }
 
+  i = 10;
+  cout<<endl;
+
+  while (i >= 1) {
+    cout<<endl<<i;
+    i--;
+  }
+
   return 0;
 }
