@@ -1,9 +1,9 @@
 /*
 Los arreglos se definen como => type name[length]
 Ejemplo:                Inicialización:
-int numbers[10];        int numbers[] = { -1, 0, 3, 4, 5 };
+int integers[10];       int integers[] = { -1, 0, 3, 4, 5 };
 char letters[5];        char letters[] = { 'a', 'e', 'i', 'o', 'u' };
-float reals[15];        float reals[] = { 1, 2, 3, 4, 5 };
+float numbers[15];      float numbers[] = { 1.1, 2.0, 3.5, 4.878, 5.65642 };
 */
 #include <iostream>
 #include <conio.h>
