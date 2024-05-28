@@ -10,7 +10,14 @@ float numbers[15];      float numbers[] = { 1.1, 2.0, 3.5, 4.878, 5.65642 };
 using namespace std;
 
 int main() {
-  cout<<"Hello everybody out there";
+  int naturals[] = { 1, 2, 3, 4, 5 }, suma = 0;
+
+  for (int i = 0; i < 5; i++) {
+    suma = suma + naturals[i];
+    cout<<endl<<suma;
+  }
+
+  cout<<endl<<"La suma de los elementos del vector es = "<<suma<<endl;
 
   getch();
   return 0;
