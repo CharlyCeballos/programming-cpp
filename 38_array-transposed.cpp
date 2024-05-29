@@ -3,18 +3,23 @@
 using namespace std;
 
 int main() {
-  int cube = 3, array1[3][3] = {{1,2,3},{4,5,6},{7,8,9}};
-  int array2[cube][cube];
+  int array[3][3] = {{1,2,3},{4,5,6},{7,8,9}};
 
-  for (int i = 0; i < cube; i++) {
-    for (int j = 0; j < cube; j++) {
-      array2[j][i] = array1[i][j];
+  cout<<"Matriz Original"<<endl;
+  for (int i = 0; i < 3; i++) {
+    for (int j = 0; j < 3; j++) {
+      cout<<array[i][j]<<" ";
     }
+    cout<<"\n";
   }
 
-  for (int i = 0; i < cube; i++) {
-    for (int j = 0; j < cube; j++) {
-      cout<<array2[i][j]<<" ";
+  cout<<"\n";
+  cout<<"\n";
+  cout<<"Matriz Transpuesta"<<endl;
+
+  for (int i = 0; i < 3; i++) {
+    for (int j = 0; j < 3; j++) {
+      cout<<array[j][i]<<" ";
     }
     cout<<"\n";
   }
