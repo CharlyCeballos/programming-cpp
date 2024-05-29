@@ -1,8 +1,7 @@
 /*
 Los arreglos se definen como => type name[length]
 Ejemplo:                          Inicialización:
-int numbers[rows][colums];        int numbers[rows][colums] = {1,2,3
-                                                               a,b,c};
+int numbers[rows][colums];        int numbers[rows][colums] = {{1,2,3}, {a,b,c}};
 */
 #include <iostream>
 #include <conio.h>
